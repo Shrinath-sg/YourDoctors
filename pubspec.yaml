@@ -1,0 +1,151 @@
+name: YOURDRS_FlutterAPP
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # Date Formatter
+  intl: any
+
+  # Shared Preference
+  shared_preferences: ^0.5.12+4
+
+  # bloc
+  bloc:
+  flutter_bloc:
+
+  # path
+  path: any
+  path_provider: any
+
+  # For Pin Verification
+  pinput: ^1.0.0
+
+  # local auth
+  local_auth: ^0.6.3+4
+
+  # rFlutter alert
+  rflutter_alert: ^2.0.2
+
+  # Image Picker for opening camera and gallery
+  image_picker: any
+
+  # Audio Players
+  audioplayers: any
+
+  # percent indicator
+  percent_indicator: any
+
+  # toggle Switch
+  toggle_switch: ^0.1.8
+
+  # file Picker
+  file_picker: ^1.12.0
+
+  # sqflite
+  sqflite: ^1.3.2+3
+
+  # flutter audio recorder
+  flutter_audio_recorder: ^0.5.5
+
+  # to show to message while recording the audio
+  fluttertoast: ^7.1.8
+
+  # audio wave
+  audio_wave: ^0.0.3
+
+  # connectivity to check if internet is available or not
+  connectivity: any
+
+  # Date Picker
+  date_picker_timeline: ^1.2.1
+
+  # Date range Picker
+  syncfusion_flutter_datepicker: any
+
+  # https
+  http: any
+
+  # equatable
+  equatable:
+
+  # Network client
+  dio: ^3.0.10
+
+  # Network logging
+  pretty_dio_logger: ^1.1.0
+
+  # for grouping of Scheduled List
+  grouped_list: ^3.7.1
+
+  #pagination
+  pagination_view: any
+
+  #webView
+  webview_flutter: ^1.0.5
+
+  # infinite Scroll View related Package
+  infinite_scroll_pagination: ^2.3.0
+  permission_handler: "3.0.1"
+
+  #case
+  cached_network_image: ^2.2.0+1
+
+  # Shimmer loading effect
+  shimmer: ^2.0.0
+  group_button: ^2.1.2
+
+dev_dependencies:
+  # Flutter app icon
+  flutter_launcher_icons: ^0.7.0
+
+  # Flutter list animation
+  flutter_staggered_animations:
+
+  flutter_test:
+    sdk: flutter
+
+  # Dependency injection
+  basic_utils: ^1.4.0
+  #date picker
+  datetime_picker_formfield:
+  #image zoom animation
+  photo_view: ^0.11.1
+
+  page_transition:
+
+  # image preview
+  full_screen_image_null_safe: ^2.0.0
+  provider: ^5.0.0
+
+# App icons
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/launcher/icon.png"
+  image_path_android: "assets/launcher/icon.png"
+  adaptive_icon_background: "assets/launcher/background.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/json/
+    - assets/images/
+  fonts:
+    - family: NeueAlteGrotesk-Regular
+      fonts:
+        - asset: assets/fonts/NeueAlteGrotesk-Regular.ttf
+    - family: NeueAlteGrotesk-SemiBold
+      fonts:
+        - asset: assets/fonts/NeueAlteGrotesk-SemiBold.ttf

@@ -1,0 +1,10 @@
+Doctor summary (to see all details, run flutter doctor -v):
+[√] Flutter (Channel master, 2.1.0-13.0.pre.205, on Microsoft Windows [Version 10.0.10240], locale en-IN)
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    ! Some Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+[√] Chrome - develop for the web
+[√] Android Studio (version 4.1.0)
+[√] VS Code (version 1.54.3)
+[√] Connected device (2 available)
+
+! Doctor found issues in 1 category.
